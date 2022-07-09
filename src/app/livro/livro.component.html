@@ -1,0 +1,25 @@
+<strong><p>Pipes</p></strong>
+<hr>
+<p style="color: green;">renderizando dados no template COM Pipes.</p>
+<p>Título: {{livro.titulo | uppercase}}</p>
+<p>Avaliação: {{livro.avaliacao | number:'1.1-1'}}</p>
+<p>Páginas: {{livro.paginas | number}}</p>
+<p>Preço: {{livro.preco | currency:'BRL'}}</p>
+<p>Lançamento: {{livro.lancamento | date:'dd/MM/yyyy'}}</p>
+<hr>
+<p style="color: red;">renderizando dados no template SEM Pipes.</p>
+<p>Título: {{livro.titulo}}</p>
+<p>Avaliação: {{livro.avaliacao}}</p>
+<p>Páginas: {{livro.paginas}}</p>
+<p>Preço: {{livro.preco}}</p>
+<p>Lançamento: {{livro.lancamento}}</p>
+<hr>
+<p style="color: green;">renderizando uma Promise COM o Pipe Async</p>
+<p>{{valorAsync1 | async}}</p>
+<p style="color: green;">renderizando um Observable COM o Pipe Async</p>
+<p>{{valorAsync2 | async}}</p>
+<hr>
+<p style="color: red;">renderizando uma Promise SEM o Pipe Async</p>
+<p>{{valorAsync1}}</p>
+<p style="color: red;">renderizando um Observable SEM o Pipe Async</p>
+<p>{{valorAsync2}}</p>
