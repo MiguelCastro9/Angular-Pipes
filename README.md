@@ -1,6 +1,6 @@
 # Overview
 
-Understanding Pipes in Angular.
+Understanding <b>Pipes</b> in Angular.
 
 <br>
 
